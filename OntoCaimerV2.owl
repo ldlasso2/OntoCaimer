@@ -1,0 +1,3569 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/OntoCaimer"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/OntoCaimer">
+    <Prefix name="" IRI="http://www.semanticweb.org/OntoCaimer"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="ontocaimer" IRI="http://www.semanticweb.org/OntoCaimer#"/>
+    <Declaration>
+        <Class IRI="http://qudt.org/schema/qudt/Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Caregiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Confusion_about_where_they_are_or_what_day_it_is."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DailyActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Delusion_and_paranoia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Difficult_to_walk_or_sit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Difficulty_swallowing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Experiencing_increased_trouble_with_planning_or_organizing."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Getting_lost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Groaning_moaning_or_grunting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Impulsive_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Inability_to_communicate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Inability_to_recognize_oneself_or_family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Increased_memory_loss_and_confusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Increased_sleeping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mood_and_personality_changes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Poor_judgment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Problems_coping_with_new_situations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Problems_recognizing_family_and_friends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Recommendation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Repeating_questions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Repetitive_behavior_like_hand-wringing_or_tissue_shredding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Seizure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Skin_infection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Sundowning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Taking_longer_than_before_to_complete_normal_daily_tasks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Trouble_handling_money_and_paying_bills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Weight_loss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://qudt.org/schema/qudt/unit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/actsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/areDoneBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/automatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/automates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/does"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasRecommendation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasSymptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isCaredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isInTheRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isPatient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isRecommended"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isSufferedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/suffers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/takesCare"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isActedOnBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isHostedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isObservedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isResultOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeActuation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeObservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observedProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/forProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/isPropertyOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://qudt.org/schema/qudt/numericValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Examples"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/TypeOfRoom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/activityName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasCellphone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasDiagnosisDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasEndTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasFrequency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasFullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasIdPatient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasLevelOfEducation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasPeriod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasStartDay"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasStartTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasTreatment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasWeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/state"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit/DeciB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit/KiloGM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Mild"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Moderate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMI9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RMO9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS34"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS36"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS37"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS39"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS40"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS44"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS46"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS48"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS49"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS50"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS51"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS52"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS54"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS55"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/RS9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Severe"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:time"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/Caregiver"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI4"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI5"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO1"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO2"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO3"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO4"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO5"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confusion_about_where_they_are_or_what_day_it_is."/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confusion_about_where_they_are_or_what_day_it_is."/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confusion_about_where_they_are_or_what_day_it_is."/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO31"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confusion_about_where_they_are_or_what_day_it_is."/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO32"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO12"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO15"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO16"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO17"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO18"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO19"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO20"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficult_to_walk_or_sit"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficult_to_walk_or_sit"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficult_to_walk_or_sit"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS12"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficult_to_walk_or_sit"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS13"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficult_to_walk_or_sit"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS14"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO24"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO25"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO26"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO27"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO28"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO29"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO30"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS24"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS25"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS26"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS27"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS28"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS29"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS30"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS31"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS32"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Difficulty_swallowing"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS33"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Experiencing_increased_trouble_with_planning_or_organizing."/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Experiencing_increased_trouble_with_planning_or_organizing."/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Mild"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Experiencing_increased_trouble_with_planning_or_organizing."/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI1"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Experiencing_increased_trouble_with_planning_or_organizing."/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI2"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Experiencing_increased_trouble_with_planning_or_organizing."/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI3"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Mild"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI10"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI11"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI12"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI13"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI4"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI5"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI6"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI7"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI8"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Getting_lost"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI9"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Groaning_moaning_or_grunting"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Groaning_moaning_or_grunting"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Groaning_moaning_or_grunting"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS15"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Groaning_moaning_or_grunting"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS16"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Groaning_moaning_or_grunting"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS17"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Impulsive_behavior"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Impulsive_behavior"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS49"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS50"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS51"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS52"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS53"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS54"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_communicate"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS55"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_recognize_oneself_or_family"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_recognize_oneself_or_family"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_recognize_oneself_or_family"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS20"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_recognize_oneself_or_family"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS21"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_recognize_oneself_or_family"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS22"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inability_to_recognize_oneself_or_family"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS23"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Increased_memory_loss_and_confusion"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Increased_memory_loss_and_confusion"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Increased_sleeping"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Increased_sleeping"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Increased_sleeping"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS18"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Increased_sleeping"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS19"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS34"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS35"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS36"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS37"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS38"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS39"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS40"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Mild"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI14"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI15"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI16"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI17"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI18"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI19"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Mild"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI20"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI21"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI22"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI23"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI24"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI5"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI7"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Patient"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Poor_judgment"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Poor_judgment"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Mild"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Problems_coping_with_new_situations"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Problems_coping_with_new_situations"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Problems_recognizing_family_and_friends"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Problems_recognizing_family_and_friends"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repeating_questions"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repeating_questions"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Mild"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repeating_questions"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI25"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repeating_questions"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI26"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repeating_questions"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI27"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repeating_questions"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI28"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repeating_questions"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI7"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repetitive_behavior_like_hand-wringing_or_tissue_shredding"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repetitive_behavior_like_hand-wringing_or_tissue_shredding"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repetitive_behavior_like_hand-wringing_or_tissue_shredding"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO12"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repetitive_behavior_like_hand-wringing_or_tissue_shredding"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO21"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repetitive_behavior_like_hand-wringing_or_tissue_shredding"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO22"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Repetitive_behavior_like_hand-wringing_or_tissue_shredding"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO23"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seizure"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seizure"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seizure"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS1"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seizure"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS2"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seizure"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS3"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seizure"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS4"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seizure"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS5"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seizure"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS6"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS41"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS42"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS43"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS44"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS45"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS46"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS47"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skin_infection"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS48"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Moderate"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI4"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO10"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO11"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO12"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO13"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO14"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO3"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO6"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO7"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO8"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sundowning"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMO9"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Taking_longer_than_before_to_complete_normal_daily_tasks"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Taking_longer_than_before_to_complete_normal_daily_tasks"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Mild"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trouble_handling_money_and_paying_bills"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trouble_handling_money_and_paying_bills"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Mild"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trouble_handling_money_and_paying_bills"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI29"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trouble_handling_money_and_paying_bills"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI30"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trouble_handling_money_and_paying_bills"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RMI31"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Weight_loss"/>
+        <Class IRI="/Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Weight_loss"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/belongsTo"/>
+            <NamedIndividual IRI="/Severe"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Weight_loss"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS10"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Weight_loss"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS11"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Weight_loss"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS7"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Weight_loss"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS8"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Weight_loss"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/hasRecommendation"/>
+            <NamedIndividual IRI="/RS9"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="/Caregiver"/>
+        <Class IRI="/Patient"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Changes_in_sleep_patterns"/>
+        <Class IRI="/Confusion_about_where_they_are_or_what_day_it_is."/>
+        <Class IRI="/Delusion_and_paranoia"/>
+        <Class IRI="/Difficult_to_walk_or_sit"/>
+        <Class IRI="/Difficulty_in_doing_tasks_involving_multiple_steps"/>
+        <Class IRI="/Difficulty_swallowing"/>
+        <Class IRI="/Experiencing_increased_trouble_with_planning_or_organizing."/>
+        <Class IRI="/Getting_lost"/>
+        <Class IRI="/Groaning_moaning_or_grunting"/>
+        <Class IRI="/Impulsive_behavior"/>
+        <Class IRI="/Inability_to_communicate"/>
+        <Class IRI="/Inability_to_recognize_oneself_or_family"/>
+        <Class IRI="/Increased_memory_loss_and_confusion"/>
+        <Class IRI="/Increased_sleeping"/>
+        <Class IRI="/Lack_of_control_of_bowel_and_bladder"/>
+        <Class IRI="/Loosing_things_or_misplacing_them"/>
+        <Class IRI="/Mood_and_personality_changes"/>
+        <Class IRI="/Poor_judgment"/>
+        <Class IRI="/Problems_coping_with_new_situations"/>
+        <Class IRI="/Problems_recognizing_family_and_friends"/>
+        <Class IRI="/Repeating_questions"/>
+        <Class IRI="/Repetitive_behavior_like_hand-wringing_or_tissue_shredding"/>
+        <Class IRI="/Seizure"/>
+        <Class IRI="/Skin_infection"/>
+        <Class IRI="/Sundowning"/>
+        <Class IRI="/Taking_longer_than_before_to_complete_normal_daily_tasks"/>
+        <Class IRI="/Trouble_handling_money_and_paying_bills"/>
+        <Class IRI="/Weight_loss"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/DailyActivity"/>
+        <Class IRI="/Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/DailyActivity"/>
+        <Class IRI="/Person"/>
+        <Class IRI="/Recommendation"/>
+        <Class IRI="/Stage"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt/Unit"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit/DeciB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://qudt.org/schema/qudt/Unit"/>
+        <NamedIndividual IRI="http://qudt.org/vocab/unit/KiloGM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Stage"/>
+        <NamedIndividual IRI="/Mild"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Stage"/>
+        <NamedIndividual IRI="/Moderate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMI9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RMO9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS34"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS36"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS37"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS39"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS40"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS44"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS46"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS48"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS49"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS51"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS52"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS54"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Recommendation"/>
+        <NamedIndividual IRI="/RS9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Stage"/>
+        <NamedIndividual IRI="/Severe"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI1"/>
+        <Literal>Use visual reminders</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI1"/>
+        <Literal>Wall calendar, weekly planner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI10"/>
+        <Literal>Place a black mat or paint a black space on your front porch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI11"/>
+        <Literal>Add “child-safe” plastic covers to doorknobs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI12"/>
+        <Literal>Have your relative wear an ID bracelet and sew ID labels in their clothes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI13"/>
+        <Literal>Tell neighbors about your relative’s wandering behavior and make sure they have your phone number.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI14"/>
+        <Literal>Label drawers and cabinets where you keep everyday articles with large printed signs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI15"/>
+        <Literal>Limit the number of hiding places</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI15"/>
+        <Literal>Locking rooms, closets, and drawers that are not regularly used.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI16"/>
+        <Literal>Important or valuable items can be kept out of sight or locked up.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI16"/>
+        <Literal>Medications</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI17"/>
+        <Literal>Designate special storage places for items</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI17"/>
+        <Literal>Keys, eyeglasses, hearing aids and batteries, dentures, and other essentials</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI18"/>
+        <Literal>Learn the person’s hiding places</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI18"/>
+        <Literal>Favorite hiding places for gifts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI19"/>
+        <Literal>Check trash baskets before you empty them.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI2"/>
+        <Literal>Consider using more permanent reminders for tasks the person does regularly</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI2"/>
+        <Literal>A note by the door to remember their keys and wallet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI20"/>
+        <Literal>Make him feel valued and productive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI21"/>
+        <Literal>Be ready to help him start an activity.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI22"/>
+        <Literal>Make her with dementia feel included in groups.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI23"/>
+        <Literal>Counselling, cognitive behavioural therapy, and group therapy may be helpful.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI24"/>
+        <Literal>Antidepressant medications may help. Talk to the person&apos;s doctor about the options</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI25"/>
+        <Literal>Repeat your answer once or twice and then try to change the subject[</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI26"/>
+        <Literal>Respond to the emotions rather than to the words</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI27"/>
+        <Literal>Keep your answers brief</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI28"/>
+        <Literal>Speak calmly and answer the question like the first time</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI29"/>
+        <Literal>Remove all credit cards from the person’s wallet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI3"/>
+        <Literal>Use visual clues that explain where items go</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI3"/>
+        <Literal>Photos with words on cupboard doors,pictures</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI30"/>
+        <Literal>Fill the person’s wallet with photographs, a small amount of money, identification cards</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI31"/>
+        <Literal>If the patient wants to pay the cashier in a store, hand her the correct change.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI4"/>
+        <Literal>Encourage movement and exercise.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI4"/>
+        <Literal>Gardening,weeding or pruning, or a more strenuous activity like raking or mowing grass.
+Indoor bowls skittles,Dance
+Seated exercises, Swimming, Walking, Tai chi or qigong</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI5"/>
+        <Literal>Maintain regular routines</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI6"/>
+        <Literal>Remove visual reminders from sight.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI6"/>
+        <Literal>Coat, purse, hat,glasses</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI7"/>
+        <Literal>Involve or redirect her attention with an activity</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI7"/>
+        <Literal>Reading books, newspapers or magazines or audio books or podcasts.
+Visiting friends or family members.
+Looking at old photographs or souvenirs from past events.
+Cooking together.
+Puzzles.
+Flower arranging.
+Listening to favorite music.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI8"/>
+        <Literal>Help her connect with familiar items and objects</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI8"/>
+        <Literal>Photos, personal items</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMI9"/>
+        <Literal>Try a barrier like a curtain or colored streamer to mask the door.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMI9"/>
+        <Literal>A “stop” sign or “do not enter” sign also may help</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO1"/>
+        <Literal>Help her to avoid naps if the person has trouble sleeping at night.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO10"/>
+        <Literal>Good lighting can sometimes assist in reducing confusion. 
+Reducing noise and excess stimulation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO11"/>
+        <Literal>Telling her the time, where she is, and what is going on can also help decrease confusion and anxiety.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO12"/>
+        <Literal>Redirect her attention with an activity</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMO12"/>
+        <Literal>Small tasks like folding towels, or putting socks together
+Family pictures, stories and conversations
+Stuffed animal therapy (adult-appropriate like dogs and cats) to help with tactile stimulation, comfort, and play
+Baby doll therapy also as nurturing can become beneficial
+Aromatherapy 
+Light therapy to help with sleep</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO13"/>
+        <Literal>Close the curtains or blinds at dusk to minimize shadows and the confusion they may cause.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO14"/>
+        <Literal>Provide items of comfort</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMO14"/>
+        <Literal>Favorite pillow or blanket</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO15"/>
+        <Literal>Leave her alone or approach her slowly to avoid scaring her.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO16"/>
+        <Literal>Avoid arguing or trying to explain that what she is thinking, seeing, or hearing is not real.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO17"/>
+        <Literal>Covering or removing mirrors and patterned carpets or wallpaper that may be confusing the person.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO18"/>
+        <Literal>Check for noises that the person could confuse with someone speaking</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMO18"/>
+        <Literal>Air conditioning or the TV.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO19"/>
+        <Literal>Make sure the person has had recent hearing and sight tests. Any glasses or hearing aids should be in good condition and working well.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO2"/>
+        <Literal>Evaluate any physical or emotional problems that may be contributing to sleep difficulties, such as pain or depression.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO20"/>
+        <Literal>If their hallucinations involve multiple senses get immediate medical advice.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO21"/>
+        <Literal>Respond to the emotion behind her question.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO22"/>
+        <Literal>Give him something to occupy his hands.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO23"/>
+        <Literal>Consult with staff to see if you can fit the repetitive action into household chores</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RMO23"/>
+        <Literal>Dusting the same area over and over again</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO24"/>
+        <Literal>Match the activity with what the person with Alzheimer&apos;s can do.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO25"/>
+        <Literal>Choose activities that can be fun for everyone.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO26"/>
+        <Literal>Help the person get started.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO27"/>
+        <Literal>Decide if he or she can do the activity alone or needs help.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO28"/>
+        <Literal>Watch to see if the person gets frustrated.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO29"/>
+        <Literal>Make sure he or she feels successful and has fun.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO3"/>
+        <Literal>Restrict sweets and avoid caffeine at night</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO30"/>
+        <Literal>Let him or her watch if that is more enjoyable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO31"/>
+        <Literal>Mark a calendar with the date</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO32"/>
+        <Literal>Buy a daily newspaper</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO4"/>
+        <Literal>Have the person use the toilet before going to bed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO5"/>
+        <Literal>Consult a doctor or pharmacist if you suspect the person’s medication may be contributing to a problem with sleeping</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO6"/>
+        <Literal>Stay nearby while she’s doing the task so that you can reassure her</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO7"/>
+        <Literal>Encourage a nap after lunch, if it does not interfere with sleeping at night.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO8"/>
+        <Literal>Make “quiet time” with soft music after lunch part of your routine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RMO9"/>
+        <Literal>Have an early dinner or late afternoon snack</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS1"/>
+        <Literal>Keep the patiente safe and comfort</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS10"/>
+        <Literal>Serve meals at the same time</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS11"/>
+        <Literal>The patient&apos;s weight should not lose less than 5kg monthly</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS12"/>
+        <Literal>Change the patient&apos;s position in bed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS13"/>
+        <Literal>Do range-of motion exercises to prevent stiffness and pressure sores</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS14"/>
+        <Literal>A physical therapist can show you how to transfer the person safely</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS15"/>
+        <Literal>Could be a sign of pain or a sign of discomfort. Check for ill</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS16"/>
+        <Literal>Check which situations reduce this behavior and try to expand this situation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS16"/>
+        <Literal>talking with the patient, giving her-his a hand rub or engaging hergiving her-his a hand rub,listening to music</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS17"/>
+        <Literal>The patient was called to attention by calling her first name and then was directed to take a deep breath and count to 10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS18"/>
+        <Literal>It may also be worth asking for a medication review with the General practitioner or speaking to a pharmacist as medication can cause a range of side effects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS19"/>
+        <Literal>If the person is sleeping a lot but it isn’t having a negative impact on them it is often best to just go with it and make sure they are comfortable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS2"/>
+        <Literal>Place something soft under the patient&apos;s head</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS20"/>
+        <Literal>If you sense he doesn&apos;t recall your name or who you are remind Him</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS21"/>
+        <Literal>Show older pictures of family and friends to reminisce together</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS22"/>
+        <Literal>If the patient is anxious or worried you can try to change the subject or sing a favorite song with him.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS23"/>
+        <Literal>Validation Therapy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS23"/>
+        <Literal>If the patient continually refers to you as her/his father - ask her/his to tell you about her/his dad- what she/he misses about him. Give her/his the opportunity to share her/his memories of him</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS24"/>
+        <Literal>Encourage the person to feed themselves as much as possible during meals</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS25"/>
+        <Literal>Give the patient enough time to chew and swallow each mouthful</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS26"/>
+        <Literal>During the meal and for at least 20 minutes after the meal the patient should be seated in an upright position.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS27"/>
+        <Literal>Say &quot;swallow&quot; to remind him or her to swallow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS28"/>
+        <Literal>Find out if the person&apos;s pills can be crushed or taken in another form.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS29"/>
+        <Literal>Offer drinks of different temperatures to see which might be easiest for the person to drink</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS3"/>
+        <Literal>Remove glasses</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS30"/>
+        <Literal>Avoid use a straw instead have the person drink small sips from a cup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS31"/>
+        <Literal>Grind or blend food to make it easier to eat.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS32"/>
+        <Literal>Make sure to cut food into small pieces and that it is soft enough for the person to eat.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS33"/>
+        <Literal>Offer soft foods</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS33"/>
+        <Literal>Bananas, sweet potatoes, mashed avocado,applesauce,yogurt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS34"/>
+        <Literal>Choose clothes with fastenings that the person can undo easily when using the toilet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS35"/>
+        <Literal>Keep track of bowel movements in order to learn the person’s patterns</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS36"/>
+        <Literal>Make it easier for the person to find their way to the toilet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS37"/>
+        <Literal>Put a sign on the toilet or bathroom door</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS38"/>
+        <Literal>Keep the genital area clean and dry to avoid infections and discomfort.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS39"/>
+        <Literal>Praise independence and regular use of the bathroom; do not punish or shame for episodes of incontinence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS4"/>
+        <Literal>Move any heave or shrp objects out of the way</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS4"/>
+        <Literal>Chair, tables</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS40"/>
+        <Literal>Establish a regular toileting routine every 2-3 hours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS40"/>
+        <Literal>Upon rising, before and after meals, and at bedtime</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS41"/>
+        <Literal>Loose clothing made of soft fabric reduces friction and pressure on the person’s skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS42"/>
+        <Literal>Check for rashes and sores</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS43"/>
+        <Literal>Gentle cleaning</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS44"/>
+        <Literal>Encourage daily exercise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS44"/>
+        <Literal>Stand up and move about regularly, Sit unsupported for a few minutes each day, Lie as flat as possible on the bed for 20-30 minutes each day,Balance in a standing position,In the sitting position shuffle along the edge of the bed from one end of the bed to the other</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS45"/>
+        <Literal>Use of protective aids</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS45"/>
+        <Literal>“egg-crate” foam mattress pad, Lambskin, waterbeds,Cushions</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS46"/>
+        <Literal>Move someone’s position at regular enough intervals to reducing skin pressure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS47"/>
+        <Literal>Use pillows or pads to protect bony areas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS48"/>
+        <Literal>Keep skin clean and dry.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS49"/>
+        <Literal>Don’t rush – allow plenty of time and look for non-verbal clues from the person</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS5"/>
+        <Literal>Lay the patient on their side</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS50"/>
+        <Literal>Even if you don’t think the person understands or is listening keep talking to them.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS51"/>
+        <Literal>Talk about things the person finds interesting or from their past.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS52"/>
+        <Literal>Consider responding to them in the way they respond to you</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS52"/>
+        <Literal>Gestures, sounds</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS53"/>
+        <Literal>Touching the person&apos;s hand</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS54"/>
+        <Literal>Use positive body language</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Examples"/>
+        <NamedIndividual IRI="/RS54"/>
+        <Literal>Smiling, Facial expressions</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS55"/>
+        <Literal>Keep eye contact when communicating</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS6"/>
+        <Literal>Call a service emergency if the patient is injured or the seizure lasts more than two minutes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS7"/>
+        <Literal>Avoid fod out of schedule</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS8"/>
+        <Literal>Ensure patient&apos;s dentures are propely fitted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <NamedIndividual IRI="/RS9"/>
+        <Literal>The eating area should be quiet and calm</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/actsOn"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isActedOnBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/areDoneBy"/>
+        <ObjectProperty IRI="/does"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/automatedBy"/>
+        <ObjectProperty IRI="/automates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/belongsTo"/>
+        <ObjectProperty IRI="/hasSymptom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/isCaredBy"/>
+        <ObjectProperty IRI="/takesCare"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/isInTheRoom"/>
+        <ObjectProperty IRI="/isPatient"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/isSufferedBy"/>
+        <ObjectProperty IRI="/suffers"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasResult"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isResultOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isHostedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isObservedBy"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeActuation"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeObservation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasProperty"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/isPropertyOf"/>
+    </InverseObjectProperties>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/actsOn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/automatedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/automates"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isActedOnBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeObservation"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/hasProperty"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/actsOn"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/areDoneBy"/>
+        <Class IRI="/DailyActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/automatedBy"/>
+        <Class IRI="/Recommendation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/automates"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/belongsTo"/>
+        <Class IRI="/Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/does"/>
+        <Class IRI="/Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasRecommendation"/>
+        <Class IRI="/Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasSymptom"/>
+        <Class IRI="/Stage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isCaredBy"/>
+        <Class IRI="/Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isInTheRoom"/>
+        <Class IRI="/Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isPatient"/>
+        <Class IRI="/Room"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isRecommended"/>
+        <Class IRI="/Recommendation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isSufferedBy"/>
+        <Class IRI="/Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/suffers"/>
+        <Class IRI="/Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/takesCare"/>
+        <Class IRI="/Caregiver"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <Class IRI="/Room"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isActedOnBy"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+        <Class IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isHostedBy"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isHostedBy"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isObservedBy"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isResultOf"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Result"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeActuation"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeObservation"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observedProperty"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observes"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/actsOn"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/areDoneBy"/>
+        <Class IRI="/Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/automatedBy"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/automates"/>
+        <Class IRI="/Recommendation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/belongsTo"/>
+        <Class IRI="/Stage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/does"/>
+        <Class IRI="/DailyActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasRecommendation"/>
+        <Class IRI="/Recommendation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasSymptom"/>
+        <Class IRI="/Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isCaredBy"/>
+        <Class IRI="/Caregiver"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isInTheRoom"/>
+        <Class IRI="/Room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isPatient"/>
+        <Class IRI="/Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isRecommended"/>
+        <Class IRI="/Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isSufferedBy"/>
+        <Class IRI="/Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/suffers"/>
+        <Class IRI="/Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/takesCare"/>
+        <Class IRI="/Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+        <Class IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasResult"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isActedOnBy"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isHostedBy"/>
+        <Class IRI="/Room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isObservedBy"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeActuation"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeObservation"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observedProperty"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observes"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <Class IRI="/Recommendation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Examples"/>
+        <Class IRI="/Recommendation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/TypeOfRoom"/>
+        <Class IRI="/Room"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/activityName"/>
+        <Class IRI="/DailyActivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasAddress"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasAge"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasCellphone"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasDiagnosisDate"/>
+        <Class IRI="/Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasEndTime"/>
+        <Class IRI="/DailyActivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasFrequency"/>
+        <Class IRI="/Symptom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasFullName"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasHeight"/>
+        <Class IRI="/Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasIdPatient"/>
+        <Class IRI="/Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasLevelOfEducation"/>
+        <Class IRI="/Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasPeriod"/>
+        <Class IRI="/Symptom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasStartDay"/>
+        <Class IRI="/Symptom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasStartTime"/>
+        <Class IRI="/DailyActivity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasTreatment"/>
+        <Class IRI="/Symptom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/hasWeight"/>
+        <Class IRI="/Patient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+            <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/DescriptionRecommendation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/hasIdPatient"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
