@@ -2844,7 +2844,7 @@ Light therapy to help with sleep</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="/DescriptionRecommendation"/>
         <NamedIndividual IRI="/RS1"/>
-        <Literal>Keep the patiente safe and comfort</Literal>
+        <Literal>Keep the patient safe and comfort</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="/DescriptionRecommendation"/>
@@ -3024,7 +3024,7 @@ Light therapy to help with sleep</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="/DescriptionRecommendation"/>
         <NamedIndividual IRI="/RS4"/>
-        <Literal>Move any heave or shrp objects out of the way</Literal>
+        <Literal>Move any heave or sharp objects out of the way</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="/Examples"/>
@@ -3149,12 +3149,12 @@ Light therapy to help with sleep</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="/DescriptionRecommendation"/>
         <NamedIndividual IRI="/RS7"/>
-        <Literal>Avoid fod out of schedule</Literal>
+        <Literal>Avoid food out of schedule</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="/DescriptionRecommendation"/>
         <NamedIndividual IRI="/RS8"/>
-        <Literal>Ensure patient&apos;s dentures are propely fitted</Literal>
+        <Literal>Ensure patient&apos;s dentures are properly fitted</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="/DescriptionRecommendation"/>
