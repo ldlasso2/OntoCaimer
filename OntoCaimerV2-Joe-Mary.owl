@@ -1905,6 +1905,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OntoCaimer/C1">
         <rdf:type rdf:resource="http://www.semanticweb.org/OntoCaimer/Caregiver"/>
+        <OntoCaimer:takesCare rdf:resource="http://www.semanticweb.org/OntoCaimer/P1"/>
+        <OntoCaimer:takesCare rdf:resource="http://www.semanticweb.org/OntoCaimer/P3"/>
         <OntoCaimer:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52</OntoCaimer:hasAge>
         <OntoCaimer:hasCellphone>+98-052-955-8963</OntoCaimer:hasCellphone>
         <OntoCaimer:hasFullName>Antony</OntoCaimer:hasFullName>
@@ -2826,7 +2828,7 @@ Light therapy to help with sleep</OntoCaimer:Examples>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OntoCaimer/RS1">
         <rdf:type rdf:resource="http://www.semanticweb.org/OntoCaimer/Recommendation"/>
-        <OntoCaimer:DescriptionRecommendation>Keep the patiente safe and comfort</OntoCaimer:DescriptionRecommendation>
+        <OntoCaimer:DescriptionRecommendation>Keep the patient safe and comfort</OntoCaimer:DescriptionRecommendation>
     </owl:NamedIndividual>
     
 
@@ -3126,7 +3128,7 @@ Light therapy to help with sleep</OntoCaimer:Examples>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OntoCaimer/RS4">
         <rdf:type rdf:resource="http://www.semanticweb.org/OntoCaimer/Recommendation"/>
-        <OntoCaimer:DescriptionRecommendation>Move any heave or shrp objects out of the way</OntoCaimer:DescriptionRecommendation>
+        <OntoCaimer:DescriptionRecommendation>Move any heave or sharp objects out of the way</OntoCaimer:DescriptionRecommendation>
         <OntoCaimer:Examples>Chair, tables</OntoCaimer:Examples>
     </owl:NamedIndividual>
     
@@ -3303,7 +3305,7 @@ Light therapy to help with sleep</OntoCaimer:Examples>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OntoCaimer/RS7">
         <rdf:type rdf:resource="http://www.semanticweb.org/OntoCaimer/Recommendation"/>
-        <OntoCaimer:DescriptionRecommendation>Avoid fod out of schedule</OntoCaimer:DescriptionRecommendation>
+        <OntoCaimer:DescriptionRecommendation>Avoid food out of schedule</OntoCaimer:DescriptionRecommendation>
     </owl:NamedIndividual>
     
 
@@ -3312,7 +3314,7 @@ Light therapy to help with sleep</OntoCaimer:Examples>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OntoCaimer/RS8">
         <rdf:type rdf:resource="http://www.semanticweb.org/OntoCaimer/Recommendation"/>
-        <OntoCaimer:DescriptionRecommendation>Ensure patient&apos;s dentures are propely fitted</OntoCaimer:DescriptionRecommendation>
+        <OntoCaimer:DescriptionRecommendation>Ensure patient&apos;s dentures are properly fitted</OntoCaimer:DescriptionRecommendation>
     </owl:NamedIndividual>
     
 
