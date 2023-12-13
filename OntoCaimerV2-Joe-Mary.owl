@@ -3336,7 +3336,7 @@ Light therapy to help with sleep</OntoCaimer:Examples>
         <sosa:hosts rdf:resource="http://www.semanticweb.org/OntoCaimer/WindowOpenCloser"/>
         <sosa:isFeatureOfInterestOf rdf:resource="http://www.semanticweb.org/OntoCaimer/O2"/>
         <ssn:hasProperty rdf:resource="http://www.semanticweb.org/OntoCaimer/NoiseLevel"/>
-        <OntoCaimer:TypeOfRoom>Dinning room</OntoCaimer:TypeOfRoom>
+        <OntoCaimer:TypeOfRoom>Dining room</OntoCaimer:TypeOfRoom>
     </owl:NamedIndividual>
     
 
